@@ -39,7 +39,6 @@ if __name__ == '__main__':
     parser.add_argument('link', help='Ваша ссылка')
     args = parser.parse_args()
 
-    # link = input('Введите ссылку: ')
     try:
         if has_abbreviated_link(args.link, token):
             print(f'Количество кликов по ссылке: {count_clicks(args.link, token)}')
