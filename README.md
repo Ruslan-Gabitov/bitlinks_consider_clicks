@@ -1,4 +1,4 @@
-# Bitly url shorterer
+# Bitly url shortener
 
 Enter a long link to get a short
 
