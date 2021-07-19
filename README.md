@@ -1,6 +1,8 @@
 # Bitly url shortener
 
-Enter a long link to get a short
+The script allows you to reduce links using the bit.ly service, as well as receive the number of clicks on the abbreviated link.
+
+###Enter a long link to get a short
 
 ```
 Input:
@@ -8,7 +10,7 @@ $ python3 main.py https://dvmn.org/modules/web-api/lesson/migration-from-website
 Output:
 https://bit.ly/2VNYLdL
 ```
-Enter a short link to get the number of clicks on it
+###Enter a short link to get the number of clicks on it
 
 ```
 Input:
