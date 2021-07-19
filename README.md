@@ -21,16 +21,12 @@ Number of clicks on the link: 10
 
 To authorize, you must obtain a TOKEN, you can obtain it from this site [dev.bitly.com](https://dev.bitly.com/api-reference). Token must be saved to .env file
 
-``` python
-import os
-from dotenv import load_dotenv
-
-if __name__ == '__main__':
-    project_folder = os.path.expanduser('~/Path to .env/')
-    load_dotenv(os.path.join(project_folder, '.env'))
-    token = {'Authorization': os.getenv('BITLY_API_KEY')}
-
+Add your token to the .env  file just as shown in the example below
 ```
+BITLY_API_KEY=your token
+```
+
+
 
 Python3 should be already installed. 
 Then use `pip` (or `pip3`, if there is a conflict with Python2) to install dependencies:
