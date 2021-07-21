@@ -32,9 +32,7 @@ def has_abbreviated_link(link, headers):
 
 
 if __name__ == "__main__":
-    # project_folder = os.path.expanduser(
-    #     "~/Desktop/Projects/bitlinks_consider_clicks/app/"
-    # )
+
     load_dotenv()
     token = {"Authorization": os.getenv("BITLY_API_KEY")}
     parser = argparse.ArgumentParser(
