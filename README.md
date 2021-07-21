@@ -1,6 +1,6 @@
 # Bitly url shortener
 
-The script allows you to reduce links using the bit.ly service, as well as receive the number of clicks on the abbreviated link.
+The script allows you to reduce links using the [bit.ly](https://bitly.com/) service, as well as receive the number of clicks on the abbreviated link.
 
 ###Enter a long link to get a short
 
