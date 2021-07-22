@@ -4,9 +4,9 @@ The script allows you to reduce links using the [bit.ly](https://bitly.com/) ser
 
 ### How to install
 
-To authorize, you must obtain a TOKEN, you can obtain it from this site [dev.bitly.com](https://dev.bitly.com/api-reference). Token must be saved to .env file
+To authorize, you must obtain a TOKEN, you can obtain it from this site [dev.bitly.com](https://dev.bitly.com/api-reference). Token must be saved to `.env` file
 
-Add your token to the .env  file just as shown in the example below
+Add your token to the `.env` file just as shown in the example below
 ```
 BITLY_API_KEY=your token
 ```
