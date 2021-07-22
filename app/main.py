@@ -17,8 +17,8 @@ def shorten_link(link, headers):
 def count_clicks(link, headers):
     payloads = {"units": -1}
     split_link = urlparse(link)
-    complete_url = 'https://api-ssl.bitly.com/v4/bitlinks/'\
-        '{}/clicks/summary'.format("".join(split_link._replace(scheme="")))
+    complete_url = "https://api-ssl.bitly.com/v4/bitlinks/"\
+        "".join(split_link._replace(scheme="")) + "/clicks/summary"
     response = requests.get(complete_url, params=payloads, headers=headers)
     response.raise_for_status()
     clicks_count = response.json()
@@ -27,8 +27,8 @@ def count_clicks(link, headers):
 
 def has_abbreviated_link(link, headers):
     split_link = urlparse(link)
-    complete_url = 'https://api-ssl.bitly.com/v4/bitlinks/'\
-        '{}'.format("".join(split_link._replace(scheme="")))
+    complete_url = "https://api-ssl.bitly.com/v4/bitlinks/"\
+        "".join(split_link._replace(scheme=""))
     response = requests.get(complete_url, headers=headers)
     return response.ok
 
